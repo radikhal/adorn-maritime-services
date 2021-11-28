@@ -820,7 +820,7 @@ html {
     .outer-hamburger-container {
         position: fixed;
         width: 100%;
-        top: 5%;
+        top: 20%;
         left: 92%;
         z-index: 1000;
     }
