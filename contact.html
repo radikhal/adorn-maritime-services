@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+/>
+    <title>Adorn Maritime Services</title>
+</head>
+<body class="contact-body">
+    <header class="contact-header-section">
+        <div class="mobile-navigation">
+            <div class="outer-logo-container">
+                <img
+                    src="images/adorn logo.jpg"
+                    alt="adorn brand logo"
+                    class="logo outer-logo"
+                    loading="lazy"
+                />
+                <a  href="index.html" class="brand-name-link">
+                    <p class="brand-name outer-brand-name" id="contact-brand-name">
+                        ADORN MARITIME <br />
+                        SERVICES LIMITED
+                    </p>
+                </a>
+            </div>
+            <div class="outer-hamburger-container">
+                <button class="hamburger-btn open-btn" >
+                    <img src="images/hamburger-thick-black.png" alt="" class="open-icon" id="contact-hamburger-btn">
+                </button>
+                <button class="hamburger-btn close-btn">
+                    <img src="images/close black.png" alt="" class="close-icon" id="contact-hamburger-btn">
+                </button>
+            </div>
+        </div>
+        <nav class="navigation-menu">
+            <div class="logo-container">
+                <img
+                    src="images/adorn logo.jpg"
+                    alt="adorn brand logo"
+                    class="logo"
+                    loading="lazy"
+                />
+                <a href="index.html" class="brand-name-link"><p class="contact-brand-name brand-name inner-brand-name">
+                    ADORN MARITIME <br />
+                    SERVICES LIMITED
+                </p></a>
+            </div>
+            <div class="nav-list-container">
+                <ul class="contact-nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<main class="contact-main">
+			<section class="contact" id="contact">
+				<h3 class="contact-heading">Get In Touch With Us Today</h3>
+				<div class="contact-form-container">
+					<div class="form-container">
+						<form action="https://formspree.io/f/xjvlbroj" method="POST">
+							<div class="form-control">
+								<label for="name">Name</label>
+								<input
+									type="text"
+									id="name"
+									name="sender-name"
+									placeholder="Enter Your Name"
+									class="input-field"
+									required
+								/>
+							</div>
+							<div class="form-control">
+								<label for="email">Email</label>
+								<input
+									type="email"
+									id="email"
+									name="sender-email"
+									placeholder="Enter Your Email"
+									class="input-field"
+									required
+								/>
+							</div>
+							<div class="form-control">
+								<label for="message">Message</label>
+								<textarea
+									name="message"
+									id="message"
+									cols="60"
+									rows="5"
+									placeholder="Enter Your Message"
+									class="input-field"
+									required
+								></textarea>
+							</div>
+							<input
+								type="submit"
+								value="submit"
+								id="submit-btn"
+								class="submit-btn"
+							/>
+						</form>
+					</div>
+				</div>
+			</section>
+</main>
+<footer class="footer-section">
+    <h4 class="contact-info-heading">contact Information</h4>
+    <article class="contact-info">
+        <div class="first-footer-container">
+            <div class="address">
+                <p class="footer-info-text">
+                    <span class="footer-info">Address:</span> First Badagry, Marine
+                    Road, Apapa, Lagos
+                </p>
+            </div>
+            <div class="phone">
+                <p class="footer-info-text">
+                    <span class="footer-info">Phone:</span> +234 (0)7030741784 || +234
+                    (0)9122346835
+                </p>
+            </div>
+        </div>
+        <div class="second-footer-container">
+            <div class="mail">
+                <p class="footer-info-text">
+                    <span class="footer-info">Email:</span> adornmaritime@gmail.com
+                </p>
+            </div>
+            <div class="instagram">
+                <p class="footer-info-text">
+                    <span class="footer-info">Instagram:</span>
+                    @adornmaritimeserviceslimited
+                </p>
+            </div>
+        </div>
+    </article>
+    <p class="copyright">
+        &copy; 2021 adornmaritimeserviceslimited. All rights reserved
+    </p>
+</footer>
+</body>
+<script src="contact-app.js"></script>
+</html>
